@@ -124,7 +124,7 @@
 	position: relative;
 	transform: rotateY(-90deg);
 	transform-style: preserve-3d;
-	transition: transform 0.5s linear 0s, left 0.25s linear 0.2s;
+	transition: transform 0.5s linear 0s, left 0.25s linear 0.15s;
 	width: 100%;
 
 	._slide-out-open & {
