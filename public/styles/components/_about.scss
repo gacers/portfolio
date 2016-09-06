@@ -1,0 +1,146 @@
+.about-content {
+	header {
+		&:before {
+			bottom: 20px;
+			left: 25px;
+		}
+	}
+}
+
+.about-info {
+	div {
+		margin-top: 15px;
+		padding-left: 25px;
+
+		p {
+			display: inline-block;
+		}
+	}
+}
+
+.about-skills {
+	margin-top: 50px;
+
+	div{
+		padding: {
+			left: 25px;
+			top: 25px;
+		};
+	}
+
+	li {
+		@include dosis-regular;
+		margin-top: 20px;
+		padding-bottom: 15px;
+		position: relative;
+
+		$lengths: 100%, 100%, 75%, 60%, 80%;
+
+		@for $i from 1 through 5 {
+			&:nth-child(#{$i}) {
+				@if ($i == 1) {
+					margin-top: 0;
+				}
+
+				&:before {
+					width: nth($lengths, $i);
+				}
+			}
+		}
+
+		&:before {
+			@include pseudo;
+			background-color: $light-grey;
+			bottom: 0;
+			height: 8px;
+		}
+	}
+}
+
+@include breakpoint(medium) {
+	.about-section {
+		.container {
+			@include grid-row;
+			justify-content: flex-end;
+		}
+	}
+
+	.about-content {
+		@include grid-row;
+		justify-content: flex-end;
+
+		header {
+			&:before {
+				bottom: 25px;
+				left: 40px;
+			}
+		}
+	}
+
+	.about-info {
+		div {
+			@include column(5);
+			padding-left: 0;
+		}
+	}
+
+	.about-skills {
+		@include column(5);
+
+		div {
+			padding-left: 40px;
+			width: 100%;
+		}
+
+		li {
+			@include fontSize(16px);
+		}
+	}
+}
+
+@include breakpoint(large) {
+	.about-section {
+		background: {
+			image: url(/images/me.jpg);
+			position: 3rem bottom;
+			repeat: no-repeat;
+		};
+
+		.container {
+			justify-content: flex-start;
+
+			+ .container {
+				justify-content: flex-end;
+			}
+		}
+	}
+
+	.about-content {
+		header {
+			&:before {
+				bottom: 30px;
+				left: 100px;
+			}
+		}
+	}
+
+	.about-info {
+		@include column(4);
+
+		div {
+			max-width: 800px;
+		}
+	}
+
+	.about-skills {
+		@include column(3);
+		margin-top: 120px;
+
+		div {
+			padding: {
+				left: 100px;
+				top: 50px;
+			};
+		}
+	}
+}

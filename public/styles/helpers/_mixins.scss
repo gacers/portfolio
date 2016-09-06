@@ -1,0 +1,291 @@
+// ************************************************************
+// Clearfix
+// ************************************************************
+@mixin clearfix() {
+	&:after {
+	    content:'';
+	    display: table;
+	    clear: both;
+	}
+}
+
+// ************************************************************
+// Breakpoints
+// ************************************************************
+@mixin breakpoint($point) {
+	@if $point == extra-large {
+		@media (min-width: 1400px) { 
+			@content;
+		}
+	} @else if $point == large {
+		@media (min-width: 1024px) {
+			@content;
+		}
+	} @else if $point == medium-max {
+		@media (max-width: 1023px) {
+			@content;
+		}
+	} @else if $point == medium {
+		@media (min-width: 768px) {
+			@content; 
+		}
+	} @else if $point == small {
+		@media (max-width: 767px)  {
+			@content; 
+		}
+	}
+}
+
+// ************************************************************
+// Grid System
+// ************************************************************
+@mixin grid() {
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+	@include breakpoint(medium) {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+
+	@include breakpoint(large) {
+		margin: 0 auto;
+		max-width: 1600px;
+	}
+}
+
+@mixin grid-row() {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+@mixin column($col) {
+	$num: ($col / 6) * 100%;
+
+	max-width: #{$num};
+	flex-basis: #{$num};
+}
+
+// ************************************************************
+// Helpers
+// ************************************************************
+@mixin pseudo() {
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+	font-size: $size;
+	font-size: calculateRem($size);
+}
+
+@mixin hide-text {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+// ************************************************************
+// Fonts
+// ************************************************************
+@mixin dosis-light {
+	font: {
+		family: $dosis;
+		weight: 300;
+	};
+}
+
+@mixin dosis-regular {
+	font: {
+		family: $dosis;
+		weight: 400;
+	};
+}
+
+@mixin open-light {
+	font: {
+		family: $open;
+		weight: 300;
+	};
+}
+
+@mixin open-regular {
+	font: {
+		family: $open;
+		weight: 400;
+	};
+}
+
+@mixin open-bold {
+	font: {
+		family: $open;
+		weight: 700;
+	};
+}
+
+@mixin open-extra-bold {
+	font: {
+		family: $open;
+		weight: 800;
+	};
+}
+
+// ************************************************************
+// Icons
+// ************************************************************
+@mixin icon($icon) {
+	font-family: 'portfolio' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	&:before {
+		@include pseudo;
+		@extend .icon-#{$icon}:before;
+	}
+}
+
+// ************************************************************
+// Web Section
+// ************************************************************
+@mixin webBlocks($max) {
+	$base-color: #4d4d4d;
+	$borders: #c1b497, #0f8ec7, #a6c307, #007fb5;
+
+	@for $i from 1 through 4 {
+		$bottom: 0;
+		$extra: 0;
+		$height: 20%;
+		$item: $i;
+
+		@if ($i > $max) {
+			$item: $i - 2;
+		}
+
+		@if ($max != 4) {
+			$bottom: 10% * ($item - 1);
+		} @else {
+			$bottom: 10% * ($item - 1);
+			$height: $height * 2;
+		}
+
+		@if ($item == 1) {
+			$bottom: 0;
+		}
+
+		&:nth-child(#{$i}) {
+			.web-site-wrapper {
+				&:before {
+					@if ($i == 1) {
+						background-color: $base-color;
+					} @else {
+						background-color: darken($base-color, (2% * $i));
+					}
+				}
+
+				&:after {
+					@if ($i == 1) {
+						background: linear-gradient(
+							to top left, 
+							$base-color 50%, 
+							transparent 0
+						);
+					} @else {
+						background: linear-gradient(
+							to top left, 
+							darken($base-color, (2% * $i)) 50%, 
+							transparent 0
+						);
+					}
+					height: $height;
+				}
+			}
+
+			@include breakpoint(medium) {
+				&:hover {
+					.web-site-wrapper {
+						&:before {
+							top: 100% - $bottom;
+						}
+
+						&:after {
+							top: 100% - ($height + $bottom);
+						}
+					}
+				}
+
+				._slide-out-open & {
+					.web-site-wrapper {
+						&:before {
+							top: 0;
+						}
+
+						&:after {
+							top: -20%;
+						}
+					}
+				}
+			}
+
+			.web-site-content-block {
+				&:before,
+				&:after,
+				.web-site-container:before {
+					height: $height;
+				}
+
+				&:before {
+					background: linear-gradient(
+						to top left, 
+						darken($base-color, (2% * ($i + 1))) 50%, 
+						transparent 0
+					);
+					bottom: $bottom;
+				}
+
+				&:after {
+					background-color: darken($base-color, (2% * ($i + 1)));
+				}
+
+				@if ($max != 4) {
+					@if ($item != 1) {
+						&:after {
+							bottom: -$bottom;
+						}
+					}
+				} @else {
+					&:after {
+						bottom: $bottom - $height;
+					}
+				}
+
+				.web-site-container {
+					&:before {
+						background: linear-gradient(
+							to top left, 
+							transparent calc(50% - 1px), 
+							nth($borders, $i) 50%, 
+							transparent calc(50%)
+						);
+						bottom: $bottom;
+					}
+				}
+			}
+		}
+	}
+}

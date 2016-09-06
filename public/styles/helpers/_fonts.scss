@@ -1,0 +1,84 @@
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+}
+
+h1 {
+	@include open-extra-bold;
+	@include fontSize(30px);
+	color: $base-grey;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+h2 {
+	@include open-extra-bold;
+	@include fontSize(24px);
+	color: $base-grey;
+}
+
+h3 {
+	@include open-light;
+	@include fontSize(18px);
+}
+
+h4 {
+	@include dosis-light;
+	@include fontSize(14px);
+	color: $medium-grey;
+}
+
+h5 {
+	@include open-extra-bold;
+	@include fontSize(20px);
+	letter-spacing: -0.5px;
+	margin: 0;
+}
+
+h6 {
+	@include open-bold;
+	@include fontSize(20px);
+	margin: 0;
+}
+
+p,
+li {
+	@include dosis-regular;
+	@include fontSize(14px);
+	color: $base-grey;
+	line-height: 1.6;
+}
+
+@include breakpoint(medium) {
+	h1 {
+		@include fontSize(64px);
+	}
+
+	h2 {
+		@include fontSize(36px);
+	}
+
+	h5 {
+		@include fontSize(28px);
+	}
+
+	p {
+		@include fontSize(16px);
+	}
+}
+
+@include breakpoint(large) {
+	h1 {
+		@include fontSize(80px);
+	}
+
+	h2 {
+		@include fontSize(54px);
+	}
+
+	h4 {
+		@include fontSize(16px);
+	}
+}
