@@ -2,6 +2,10 @@ var keystone = require('keystone');
 var transform = require('model-transform');
 var Types = keystone.Field.Types;
 
+/**
+ * User Model
+ * ==========
+ */
 var User = new keystone.List('User');
 
 User.add({
@@ -18,6 +22,10 @@ User.schema.virtual('canAccessKeystone').get(function() {
 });
 
 transform.toJSON(User);
+
+/**
+ * Registration
+ */
 
 User.defaultColumns = 'name, email, isAdmin';
 User.register();

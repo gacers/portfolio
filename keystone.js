@@ -1,8 +1,10 @@
+
 var keystone = require('keystone');
 var handlebars = require('express-handlebars');
 
 keystone.init({
-
+// Simulate config options from your production environment by
+// customising the .env file in your project's root folder.
 	'name': 'Portfolio',
 	'brand': 'Portfolio',
 

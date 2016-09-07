@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # http://editorconfig.org
 root = true
 
@@ -10,3 +11,19 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+=======
+# This file is for unifying the coding style for different editors and IDEs
+# editorconfig.org
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = true
+indent_style = tab
+
+[{*.yml,*.json}]
+indent_style = space
+indent_size = 2
+>>>>>>> 3fbba55b4e467321960896d6fe935bf5b9d44767

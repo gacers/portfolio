@@ -1,0 +1,1569 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"catp",
+				"caption-side"
+			],
+			[
+				"ta",
+				"table-caption"
+			],
+			[
+				"component",
+				"component-spacing-small	 _common.scss"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ki-tool",
+				"ki-tool-nav"
+			],
+			[
+				"element",
+				"elementClasses〔variable〕"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"has",
+				"hasClass〔function〕"
+			],
+			[
+				"gr",
+				"border-gray	 _variables.scss"
+			],
+			[
+				"g",
+				"light-gray	 _side-nav-Gary.scss"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"min-h",
+				"min-width"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"profile",
+				"profile-header	 main.css"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ls",
+				"listenForChanges"
+			],
+			[
+				"KIN",
+				"KIN.accordion.heightsAllocation"
+			],
+			[
+				"pare",
+				"parentEl"
+			],
+			[
+				"change",
+				"changeWatcher"
+			],
+			[
+				"list",
+				"listChange"
+			],
+			[
+				"li",
+				"listenForChanges"
+			],
+			[
+				"data",
+				"data-tool"
+			],
+			[
+				"tool",
+				"toolbar"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"chil",
+				"childElement"
+			],
+			[
+				"toggle",
+				"toggleElement"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"small",
+				"small-circle	 main.css"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pos",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"ki",
+				"ki-tool-nav"
+			],
+			[
+				"bo",
+				"light-gray-border	 _side-nav.scss"
+			],
+			[
+				"remov",
+				"removeClass"
+			],
+			[
+				"offset",
+				"offsetParent"
+			],
+			[
+				"toolbar-",
+				"toolbar-open	 _side-nav.scss"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"preve",
+				"prevent-scroll"
+			],
+			[
+				"nav",
+				"navHeight〔variable〕"
+			],
+			[
+				"sec",
+				"sectionHeight"
+			],
+			[
+				"sect",
+				"sectionPosition〔variable〕"
+			],
+			[
+				"he",
+				"headerHeight"
+			],
+			[
+				"css",
+				"css({'min"
+			],
+			[
+				"config",
+				"configAccordion"
+			],
+			[
+				"bas",
+				"base-link	 _common.scss"
+			],
+			[
+				"btn",
+				"btn-secundary	 _common.scss"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"b",
+				"border-light-gray	 _buttons.scss"
+			],
+			[
+				"pdding",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"h",
+				"hide-text()	 _mixins.scss"
+			],
+			[
+				"colr",
+				"color"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"tra",
+				"transition-duration"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bt",
+				"btn-secundary	 _common.scss"
+			],
+			[
+				"mrgin",
+				"margin-right"
+			],
+			[
+				"init",
+				"initScroll"
+			],
+			[
+				"ki-card-col",
+				"ki-card-col-1	 _common.scss"
+			],
+			[
+				"ki-card",
+				"ki-card-col-1	 _common.scss"
+			],
+			[
+				"bord",
+				"border-light-gray	 _common.scss"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"bor",
+				"border-light-gray	 _common.scss"
+			],
+			[
+				"bl",
+				"black	 _home.scss"
+			],
+			[
+				"ki-card-",
+				"ki-card-col-3	 _common.scss"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"ki-card-co",
+				"ki-card-content	 _home.scss"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"ki-fe",
+				"ki-featured-article-card	 _home.scss"
+			],
+			[
+				"div",
+				"div	<div>"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"pddin",
+				"padding-bottom"
+			],
+			[
+				"ki-social-card",
+				"ki-social-card	 _home.scss"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"kicard-col",
+				"ki-card-col-1	 _home.scss"
+			],
+			[
+				"ki-car",
+				"ki-card-col-1	 _home.scss"
+			],
+			[
+				"card-tile",
+				"ki-card-tile	 _home.scss"
+			],
+			[
+				"qq",
+				"qq-less($number)	 _mixins.scss"
+			],
+			[
+				"ki-crd",
+				"ki-card-tile	 _home.scss"
+			],
+			[
+				"card",
+				"card-row	 _home.scss"
+			],
+			[
+				"base",
+				"base-font-book	 _common.scss"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"base-fon",
+				"base-font-medium	 _common.scss"
+			],
+			[
+				"colo",
+				"colorNumber	 _colors.scss"
+			],
+			[
+				"go",
+				"goToTab"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"in",
+				"inline-table"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inlin-e",
+				"inline-block"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"ki-",
+				"ki-pseudo()	 _mixins.scss"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"rm",
+				"removeClass"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"rep",
+				"repeat"
+			],
+			[
+				"scroll",
+				"scrollLeft〔function〕"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"thirty",
+				"thirty-five	 style.css"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"show",
+				"show-info	 style.css"
+			],
+			[
+				"scr",
+				"scrollLeft〔function〕"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"indi",
+				"indicators"
+			],
+			[
+				"sync",
+				"syncChannels"
+			],
+			[
+				"bred",
+				"breadcrumb	 style.css"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"over",
+				"overflow"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/styles/helpers/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 3674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/views/index.hbs",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/views/layouts/default.hbs",
+			"settings":
+			{
+				"buffer_size": 1167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/views/partials/hero.hbs",
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 209.0,
+		"last_filter": "cssL",
+		"selected_items":
+		[
+			[
+				"cssL",
+				"Preferences: CSSLint Settings – Default"
+			],
+			[
+				"css",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"lor",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/gacers/Sites/portfolio",
+		"/Users/gacers/Sites/portfolio/node_modules",
+		"/Users/gacers/Sites/portfolio/public",
+		"/Users/gacers/Sites/portfolio/public/styles",
+		"/Users/gacers/Sites/portfolio/public/styles/components",
+		"/Users/gacers/Sites/portfolio/templates",
+		"/Users/gacers/Sites/portfolio/templates/views",
+		"/Users/gacers/Sites/portfolio/templates/views/helpers",
+		"/Users/gacers/Sites/portfolio/templates/views/layouts",
+		"/Users/gacers/Sites/portfolio/templates/views/partials"
+	],
+	"file_history":
+	[
+		"/Users/gacers/Sites/portfolio/public/styles/site.css",
+		"/Users/gacers/Sites/portfolio/public/styles/site.scss",
+		"/Users/gacers/Sites/portfolio/public/styles/helpers/_mixins.scss",
+		"/Users/gacers/Sites/portfolio/public/styles/helpers/_fonts.scss",
+		"/Users/gacers/Sites/portfolio/gulpfile.js",
+		"/Users/gacers/Sites/kohls/fe-intranet/frontend/gulpfile.babel.js",
+		"/Users/gacers/Sites/portfolio/public/styles/_common.scss",
+		"/Users/gacers/Desktop/site.css",
+		"/Users/gacers/Library/Application Support/Sublime Text 3/Packages/CSSLint/CSSLint.sublime-settings",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/_home.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/helpers/_variables.scss",
+		"/Users/gacers/Sites/portfolio/templates/views/layouts/default.hbs",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/gulpfile.babel.js",
+		"/Users/gacers/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/gacers/Sites/portfolio/public/styles/common/_variables.scss",
+		"/Users/gacers/Sites/portfolio/public/styles/common/_fonts.scss",
+		"/Users/gacers/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/gacers/Sites/portfolio/web.js",
+		"/Users/gacers/Sites/portfolio/package.json",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/group-header/group-header-non-editable.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/_edition.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/related-file-list/related-file-list-item.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store-header-inherited/store-header-inherited.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_side-nav.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/components/sideNav.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/_profile.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/groups-header/groups-header.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/groups-header/groups-header-non-editable.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/kohls-header/kohls-header-section.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_cards.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store-header-no-email/store-header-no-email.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/knowledgeworks/knowledgeworks.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_footer.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store-sales/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store-operations/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store-customer/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store-departments/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store-header/store-header.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/news-and-events-archive/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/news-and-events-events/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/news-and-events/hero-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/news-and-events/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/inherited-department-header/inherited-department-header.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/department-teams/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/department-resources/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/department/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/department-about-us/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/department-header/department-header.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/components/utils.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/components/content-actions.js",
+		"/Users/gacers/Desktop/location.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/location/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/_common.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_heroes.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/group-header/group-header.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/_article.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/components/accordion.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/landing/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/_department.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_location-component.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/main.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/location-header/location-header.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/event/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/category-header/category-header-non-editable.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/404-page/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/category-header/category-header.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/article/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/profile/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/store/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/components/responsiveImages.js",
+		"/Users/gacers/Desktop/changes/utility-bar.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/article-summary/article-summary.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/utility-bar/utility-bar.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/multi-store/content.jsp",
+		"/Users/gacers/Desktop/changes/content.jsp",
+		"/Users/gacers/Desktop/header-fragment.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_util-bar.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_content-actions.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_profile-header.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/profile/profile-header.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_header.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/helpers/_mixins.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/breadcrumb/breadcrumb.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_breadcrumb.scss",
+		"/Users/gacers/Desktop/changes/_landing-hero.scss",
+		"/Users/gacers/Desktop/changes/_content-actions.scss",
+		"/Users/gacers/Desktop/changes/_outter-hero.scss",
+		"/Users/gacers/Desktop/changes/_util-bar.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/toolbar/toolbar.jsp",
+		"/Users/gacers/Desktop/changes/_breadcrumb.scss",
+		"/Users/gacers/Desktop/changes/content-article.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/app.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/main.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/_groups.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/home.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/homepage/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/category/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/home.html",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/kohls-header/kohls-header.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/application/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/news-and-events/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/search-results/content.jsp",
+		"/Users/gacers/Sites/restart.sh",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/department/content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/groups/content.jsp",
+		"/Users/gacers/Sites/crx-quickstart/bin/start",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/components/headerNav.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/about-us.html",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/base-page/footer.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/components/modal-box.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/application-list/application-list-item.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/landing-page.html",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_side-nav-Gary.scss",
+		"/Users/gacers/Desktop/sideNav-Gary.js",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/helpers/_icons.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/tabbed-content/tabbed-content.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/scripts/components/tabs.js",
+		"/Users/gacers/Desktop/Screen Shot 2016-05-12 at 10.57.01 AM.png",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/package.json",
+		"/Users/gacers/Sites/kohls/kohls.sublime-project",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/base-page/.content.xml",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/kohls-footer/kohls-footer.jsp",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/search.html",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/content/jcr_root/apps/kohls-intranet-aem/components/tabbed-content-non-editable/tabbed-content-non-editable.jspf",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_accordion.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_tab-component.scss",
+		"/Users/gacers/Sites/kohls/kohls-intranet-aem/ui.apps/src/main/frontend/app/styles/components/_components.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bs",
+			"\"./\"",
+			"h1",
+			"site",
+			"evt=\"click=paginate\"",
+			"scf-js-error-message",
+			"allow",
+			"comments-container",
+			"eyebrow-title",
+			".eyebrow-title",
+			"eyebrow-title",
+			"1.5%",
+			"-hero ",
+			"ki-outter-hero",
+			"1.5%",
+			"ki-card ",
+			"ki-car ",
+			"$page-top-padding",
+			"ki-toolbar-tab-image",
+			"ki-toolbar-view-all",
+			"50px",
+			"ki-toolbar-profile",
+			".ki-toolbar-content-wrapper",
+			"ki-toolbar-view-all ",
+			"NO ACTIVITY",
+			"ki-toolbar-block",
+			"ki-toolbar-tab-image",
+			"ki-toolbar-profile",
+			"ki-profile-card",
+			"ki-profile-car",
+			"article",
+			"console",
+			"'_active'",
+			"ki-tab-item",
+			"Knowledgeworks",
+			"ki-basic-info",
+			"ki-aboutme",
+			"Basic Info",
+			"$target",
+			"$toggleElement",
+			"clickListen",
+			".header",
+			"35",
+			"article",
+			"section",
+			"article",
+			"i",
+			"getNewHeights",
+			"controlMaxHeight",
+			"MaxHeight",
+			"maxHeight",
+			"triggerActions",
+			"bookmarkTriggerIndex",
+			"UPDATE_TOOLBAR_SECTION_EVENT",
+			"console",
+			"ki-horizontal-navbar",
+			"console",
+			"components",
+			"side-nav",
+			"end-",
+			"location-place",
+			"section",
+			"article",
+			"section",
+			"article",
+			"hero-container",
+			"store",
+			"-->",
+			"!--",
+			"PREVENT",
+			"prevent",
+			"PREVENT",
+			"prevent",
+			"PREVENT",
+			"ki-profile-card",
+			"29",
+			"\\",
+			"none",
+			"-->",
+			"<!--",
+			"-->",
+			"!",
+			"-->",
+			"<!--",
+			"'toolbar-pinned'",
+			"triggerActions",
+			"controlMaxHeight",
+			"recalculateHeights",
+			"$content",
+			"treeChange",
+			"sectionItems",
+			"recalculateHeights",
+			"listChange",
+			".article-content",
+			"ki-summary",
+			"'.ki-toolbar'",
+			"'data-tool'",
+			"static",
+			"further-links",
+			"50px",
+			"<cq:include path=\"utilityBar\" resourceType=\"kohls-intranet-aem/components/utility-bar\"/>",
+			"util-bar",
+			".ki-article-hero",
+			".ki-outter-hero",
+			"mn-min-width-extra-large",
+			"container",
+			"@include mn-min-width-extra-large();",
+			"mn-min-width-extra-large",
+			"1380",
+			"further",
+			"article",
+			".components-container",
+			"component",
+			";\n",
+			"further-links",
+			"mn-section-links",
+			"/content/mykohls/human-resources/sub-menu-1111.html",
+			"mn-sub-section-title",
+			"spaceAvailable",
+			"top",
+			"Top",
+			"top",
+			"preventScroll",
+			"setOverlayHeight",
+			"$('.k-container, .ki-footer')",
+			"'prevent-scroll'",
+			"\n            $html.addClass('footer-in-view');",
+			"ki-footer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/styles/helpers/_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/views/index.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										25,
+										26
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/views/layouts/default.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								988,
+								988
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/views/partials/hero.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										95,
+										102
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1,
+										8
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 284.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"footer",
+				"kohls-intranet-aem/components/base-page/footer.jsp"
+			],
+			[
+				"kohls-foo",
+				"kohls-intranet-aem/components/kohls-footer/kohls-footer.jsp"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 343.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
