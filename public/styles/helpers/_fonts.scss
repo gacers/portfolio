@@ -39,8 +39,9 @@ h5 {
 
 h6 {
 	@include open-bold;
-	@include fontSize(20px);
+	@include fontSize(16px);
 	margin: 0;
+	text-transform: uppercase;
 }
 
 p,
@@ -64,7 +65,12 @@ li {
 		@include fontSize(28px);
 	}
 
-	p {
+	h6 {
+		@include fontSize(20px);
+	}
+
+	p,
+	li {
 		@include fontSize(16px);
 	}
 }

@@ -56,7 +56,7 @@
 }
 
 .site-content {
-	margin-top: 10px;
+	padding-top: 10px;
 
 	p,
 	li {
@@ -68,8 +68,16 @@
 	}
 }
 
+.web-site-project {
+	.slide-out-section-title {
+		display: none;
+	}
+}
+
 .slide-out-section-title {
-	display: none;
+	h6 {
+		color: $base-grey;
+	}
 }
 
 .technology-list {
@@ -109,6 +117,63 @@
 		img {
 			width: 100%;
 		}
+	}
+}
+
+.resume {
+	.slide-out-section-title {
+		display: block;
+	}
+}
+
+.contact-info {
+	padding: 30px 0 0;
+
+	a {
+		color: $light-grey;
+	}
+}
+
+.resume-info {
+	padding-top: 40px;
+}
+
+.resume-section {
+	display: inline-block;
+	margin-top: 40px;
+	width: 100%;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.resume-section-sub-item {
+	margin-top: 20px; 
+
+	&:first-child {
+		margin-top: 10px;
+	}
+}
+
+.resume-section-info {
+	strong {
+		color: $base-grey;
+	}
+
+	.expertise & {
+		margin-top: 0;
+	}
+}
+
+.resume-section-sub-details {
+	display: inline-block;
+	margin-bottom: 1em;
+	width: 100%;
+
+	li {
+		@include dosis-light;
+		@include fontSize(12px);
 	}
 }
 
@@ -203,11 +268,11 @@
 
 @include breakpoint(medium) {
 	.slide-out-container {
-		@include column(5);	
+		@include column(5);
 
 		h3 {
 			@include fontSize(30px);
-		}	
+		}
 	}
 
 	.slide-out-content {
@@ -231,7 +296,7 @@
 	.site-content {
 		padding: {
 			left: 50px;
-			top: 45px;
+			top: 55px;
 		};
 
 		p {
@@ -252,6 +317,75 @@
 
 		li {
 			margin-top: 25px;
+		}
+	}
+
+	.resume {
+		.site-content {
+			padding-top: 25px;
+		}
+	}
+
+	.contact-info {
+		padding-top: 0;
+	}
+
+	.resume-info {
+		padding-top: 25px;
+	}
+
+	.resume-section {
+		margin-top: 30px;
+
+		p {
+			margin-top: 5px;
+		}
+	}
+
+	ul.resume-section-info,
+	.resume-section-sub-details,
+	.contact-info {
+		@include clearfix;
+
+		li {
+			float: left;
+			position: relative;
+
+			&:before {
+				@include pseudo;
+				content: '\2022';
+				left: 0;
+			}
+
+			&:first-child {
+				margin: 0;
+				padding: 0;
+
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+
+	ul.resume-section-info,
+	.contact-info {
+		li {
+			margin-left: 20px;
+			padding-left: 24px;
+		}
+	}
+
+
+	ul.resume-section-info {
+		margin-bottom: 10px;
+	}
+
+	.resume-section-sub-details {
+		li {
+			@include fontSize(14px);
+			margin-left: 5px;
+			padding-left: 10px;
 		}
 	}
 
@@ -288,6 +422,10 @@
 }
 
 @include breakpoint(large) {
+	.slide-out-wrapper {
+		max-width: 1650px;
+	}
+
 	.slide-out-content {
 		padding: {
 			bottom: 100px;
@@ -329,6 +467,45 @@
 		li {
 			@include fontSize(14px);
 		}
+	}
+
+	.resume {
+		.site-content {
+			padding-top: 50px;
+		}
+
+		.slide-out-section-title,
+		.slide-out-section-content {
+			display: table-cell;
+			padding-top: 30px;
+		}
+	}
+
+	.resume-info {
+		padding-top: 50px;
+	}
+
+	.resume-section {
+		display: table-row;
+
+		&:first-child {
+			.slide-out-section-title,
+			.slide-out-section-content {
+				padding-top: 0;
+			}
+		}
+	}
+
+	.resume-section-sub-item {
+		margin-top: 20px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	.resume-section-sub {
+		padding-top: 2px;
 	}
 
 	.toolbar-front {

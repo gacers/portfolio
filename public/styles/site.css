@@ -2,7 +2,7 @@
 /**
  * Remove default margin.
  */
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Varela+Round|Dosis:300,400';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Varela+Round|Dosis:300,400,700';
 body {
   margin: 0; }
 
@@ -439,9 +439,10 @@ h5 {
 h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  font-size: 1.25rem;
-  margin: 0; }
+  font-size: 16px;
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase; }
 
 p,
 li {
@@ -462,7 +463,11 @@ li {
   h5 {
     font-size: 28px;
     font-size: 1.75rem; }
-  p {
+  h6 {
+    font-size: 20px;
+    font-size: 1.25rem; }
+  p,
+  li {
     font-size: 16px;
     font-size: 1rem; } }
 
@@ -518,11 +523,6 @@ li {
 *:focus {
   outline: 0; }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-
 body {
   font-size: 14px;
   font-size: 0.875rem;
@@ -530,6 +530,14 @@ body {
   position: relative; }
   body._slide-out-open {
     overflow: hidden; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+strong {
+  font-weight: 700; }
 
 button {
   background: none;
@@ -1066,7 +1074,7 @@ header {
       content: '';
       display: block;
       position: absolute;
-      background-color: #999;
+      background-color: #dfdfdf;
       bottom: 0;
       height: 8px; }
 
@@ -1291,15 +1299,18 @@ footer {
       color: #999; }
 
 .site-content {
-  margin-top: 10px; }
+  padding-top: 10px; }
   .site-content p,
   .site-content li {
     color: #999; }
   .site-content p {
     display: inline-block; }
 
-.slide-out-section-title {
+.web-site-project .slide-out-section-title {
   display: none; }
+
+.slide-out-section-title h6 {
+  color: #666; }
 
 .technology-list:after {
   content: '';
@@ -1332,6 +1343,45 @@ footer {
     width: 100%; }
     .screenshots-list li img {
       width: 100%; }
+
+.resume .slide-out-section-title {
+  display: block; }
+
+.contact-info {
+  padding: 30px 0 0; }
+  .contact-info a {
+    color: #999; }
+
+.resume-info {
+  padding-top: 40px; }
+
+.resume-section {
+  display: inline-block;
+  margin-top: 40px;
+  width: 100%; }
+  .resume-section:first-child {
+    margin-top: 0; }
+
+.resume-section-sub-item {
+  margin-top: 20px; }
+  .resume-section-sub-item:first-child {
+    margin-top: 10px; }
+
+.resume-section-info strong {
+  color: #666; }
+
+.expertise .resume-section-info {
+  margin-top: 0; }
+
+.resume-section-sub-details {
+  display: inline-block;
+  margin-bottom: 1em;
+  width: 100%; }
+  .resume-section-sub-details li {
+    font-family: "Dosis", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    font-size: 0.75rem; }
 
 .toolbar {
   perspective: 1000px;
@@ -1419,7 +1469,7 @@ footer {
         left: 50px; }
   .site-content {
     padding-left: 50px;
-    padding-top: 45px; }
+    padding-top: 55px; }
     .site-content p {
       margin-top: 25px; }
   .slide-out-section-title {
@@ -1430,6 +1480,55 @@ footer {
     margin-top: 55px; }
     .screenshots-list li {
       margin-top: 25px; }
+  .resume .site-content {
+    padding-top: 25px; }
+  .contact-info {
+    padding-top: 0; }
+  .resume-info {
+    padding-top: 25px; }
+  .resume-section {
+    margin-top: 30px; }
+    .resume-section p {
+      margin-top: 5px; }
+  ul.resume-section-info:after,
+  .resume-section-sub-details:after,
+  .contact-info:after {
+    content: '';
+    display: table;
+    clear: both; }
+  ul.resume-section-info li,
+  .resume-section-sub-details li,
+  .contact-info li {
+    float: left;
+    position: relative; }
+    ul.resume-section-info li:before,
+    .resume-section-sub-details li:before,
+    .contact-info li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      content: '\2022';
+      left: 0; }
+    ul.resume-section-info li:first-child,
+    .resume-section-sub-details li:first-child,
+    .contact-info li:first-child {
+      margin: 0;
+      padding: 0; }
+      ul.resume-section-info li:first-child:before,
+      .resume-section-sub-details li:first-child:before,
+      .contact-info li:first-child:before {
+        display: none; }
+  ul.resume-section-info li,
+  .contact-info li {
+    margin-left: 20px;
+    padding-left: 24px; }
+  ul.resume-section-info {
+    margin-bottom: 10px; }
+  .resume-section-sub-details li {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-left: 5px;
+    padding-left: 10px; }
   .toolbar {
     width: 60px; }
   .toolbar-wrapper {
@@ -1450,6 +1549,8 @@ footer {
     width: 30px; } }
 
 @media (min-width: 1024px) {
+  .slide-out-wrapper {
+    max-width: 1650px; }
   .slide-out-content {
     padding-bottom: 100px;
     padding-top: 100px; }
@@ -1473,6 +1574,25 @@ footer {
   .technology-list li {
     font-size: 14px;
     font-size: 0.875rem; }
+  .resume .site-content {
+    padding-top: 50px; }
+  .resume .slide-out-section-title,
+  .resume .slide-out-section-content {
+    display: table-cell;
+    padding-top: 30px; }
+  .resume-info {
+    padding-top: 50px; }
+  .resume-section {
+    display: table-row; }
+    .resume-section:first-child .slide-out-section-title,
+    .resume-section:first-child .slide-out-section-content {
+      padding-top: 0; }
+  .resume-section-sub-item {
+    margin-top: 20px; }
+    .resume-section-sub-item:first-child {
+      margin-top: 0; }
+  .resume-section-sub {
+    padding-top: 2px; }
   .toolbar-front {
     padding-top: 108px; }
     .toolbar-front a,

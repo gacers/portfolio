@@ -60,10 +60,7 @@ JS.slideOut = function () {
 
 	var websiteActivate = function() {		
 		for (var i=0; i < $webItem.length; i++) {
-
 			$webItem[i].addEventListener('click', function() {
-				this.focus();
-
 				activateSlideOut();
 			});
 		}
