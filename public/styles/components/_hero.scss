@@ -1,0 +1,74 @@
+.hero {
+	height: 100vh;
+	max-height: 600px;
+	padding: 0;
+
+	.container {
+		height: 100%;
+	}
+}
+
+.hero-content {
+	height: 100%;
+	position: relative;
+	
+	header {
+		@include clearfix;
+		bottom: 15%;
+		overflow: hidden;
+		position: absolute;
+		width: 100%;
+
+		&:before {
+			@include pseudo;
+			background-color: $border-grey;
+			bottom: 20px;
+			height: 1px;
+			left: 130px;
+			width: 100vw;
+		}
+	}
+
+	h4 {
+		float: right;
+		margin-top: 10px;
+	}
+}
+
+@include breakpoint(medium) {
+	.hero {
+		max-height: none;
+	}
+
+	.hero-content {
+		header {
+			bottom: 18%;
+
+			&:before {
+				bottom: 25px;
+				left: 270px;
+			}
+		}
+
+		h4 {
+			margin-top: 15px;
+		}
+	}
+}
+
+@include breakpoint(large) {
+	.hero-content {
+		header {
+			bottom: 20%;
+
+			&:before {
+				bottom: 30px;
+				left: 340px;
+			}
+		}
+
+		h4 {
+			margin-top: 20px;
+		}
+	}
+}
