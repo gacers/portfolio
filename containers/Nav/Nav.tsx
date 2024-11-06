@@ -46,6 +46,8 @@ const Nav = () => {
       <motion.div className={s.body} variants={SIDEBAR_BODY_ANIMATIONS}>
         <motion.nav
           className={s.nav}
+          initial="closed"
+          animate={slidingPanelContent ? 'open' : 'closed'}
           variants={SIDEBAR_LIST_ANIMATIONS}
         >
           <List >
