@@ -43,7 +43,12 @@ const Nav = () => {
       className={s.root}
       ref={ref as any}
     >
-      <motion.div className={s.body} variants={SIDEBAR_BODY_ANIMATIONS}>
+      <motion.div
+        className={s.body}
+        initial="closed"
+        animate={slidingPanelContent ? 'open' : 'closed'}
+        variants={SIDEBAR_BODY_ANIMATIONS}
+      >
         <motion.nav
           className={s.nav}
           initial="closed"
