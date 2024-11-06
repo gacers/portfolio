@@ -1,0 +1,50 @@
+.content {
+  margin-top: 200px;
+}
+
+.item {
+  padding: 10px 0;
+
+  &:not(:first-child) {
+    margin-top: 20px;
+  }
+}
+
+.button {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  opacity: 1;
+  padding-right: 36px;
+  position: relative;
+  text-align: left;
+  transition: opacity 0.2s linear;
+
+  &::before {
+    background-color: var(--cream);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    transition: width 0.2s linear;
+    width: 0;
+  }
+
+  &::after {
+    content: '\21D2';
+    line-height: 35px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+  }
+
+  &:hover {
+    opacity: 0.6;
+
+    &::before {
+      width: 100%;
+    }
+  }
+}

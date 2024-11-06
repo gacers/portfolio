@@ -1,0 +1,8 @@
+.root {
+  display: flexx;
+  padding-left: 120px;
+}
+
+.column {
+  flex-direction: column;
+}

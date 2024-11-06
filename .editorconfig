@@ -1,0 +1,21 @@
+root = true
+
+# Indentation override for all JS files
+[*.js]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all TSX files
+[*.tsx]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all TS files
+[*.ts]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all scss files
+[*.css]
+indent_style = space
+indent_size = 2

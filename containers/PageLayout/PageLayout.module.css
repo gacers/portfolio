@@ -1,0 +1,16 @@
+.root {
+  padding-left: 20px;
+}
+
+.left {
+  padding-right: 20px;
+
+  img {
+    height: auto;
+    width: 100%;
+
+    &:not(:first-child) {
+      margin-top: 40px;
+    }
+  }
+}

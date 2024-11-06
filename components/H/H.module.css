@@ -1,0 +1,14 @@
+.root {
+  font-family: var(--font-serif);
+}
+
+.h1 {
+  font-size: 350px;
+  height: 235px;
+  line-height: 225px;
+}
+
+.h2,
+.h2-style {
+  font-size: 100px
+}

@@ -1,0 +1,55 @@
+.root {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: var(--z-modal);
+}
+
+/* .blur {
+  backdrop-filter: blur(10px);
+  background-color: var(--black-100);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: var(--z-modal);
+} */
+
+.body {
+  background-color: var(--green-100);
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: var(--z-modal);
+}
+
+.body > div {
+  height: 100%;
+}
+
+.desktop {
+  height: 100%;
+  width: 100%;
+}
+
+.sm {
+  width: 45%;
+}
+
+.md {
+  width: 50%;
+}
+
+.lg {
+  width: 54%;
+}
+
+.xl {
+  width: 75%;
+}
+
+.right {
+  right: 0;
+}

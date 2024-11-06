@@ -1,0 +1,13 @@
+.root {
+  display: grid;
+  grid-template-columns: calc(50% + 20px) calc(50% - 20px);
+  width: calc(100% - 20px);
+}
+
+.left {
+  grid-column: 1;
+}
+
+.right {
+  grid-column: 2;
+}

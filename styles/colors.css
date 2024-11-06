@@ -1,0 +1,23 @@
+/** ========================================================================
+ *                           Font Colors
+ *
+ * Append '-text' to classnames
+ *======================================================================== **/
+.text {
+  color: var(--default-font-color);
+}
+
+/** ========================================================================
+ *                           Background Colors
+ *
+ * Append '-background' to classnames
+ *======================================================================== **/
+.background {
+  &.green {
+    background-color: var(--green-100);
+  }
+
+  &.dark-green {
+    background-color: var(--green-100);
+  }
+}
