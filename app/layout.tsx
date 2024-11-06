@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={clsx(afacad.className, philosopher.className)}>
-        <GlobalProvider initialState={{ sidebarOpen: false, slidingPanelContent: null }}>
+        <GlobalProvider initialState={{ sidebarOpen: false, slidingPanelContent: null, loggedIn: false }}>
           {children}
 
           <Nav />

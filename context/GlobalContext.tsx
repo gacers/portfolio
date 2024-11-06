@@ -2,7 +2,6 @@
 
 import React, { ReactNode, createContext, useCallback, useContext, useReducer } from 'react'
 import { enablePageScrolling, preventPageScrolling } from '@/lib/scrolling-utils'
-import { SessionProvider } from "next-auth/react";
 
 type State = {
   sidebarOpen: boolean
