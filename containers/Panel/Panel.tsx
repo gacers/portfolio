@@ -18,6 +18,7 @@ const Panel: FC<Props> = ({ className = null, menuOpen, siteSection = null }) =>
 
   const classes = clsx(s.root, {
     [`${className}`]: className,
+    [s.open]: slidingPanelContent,
   })
 
   const handleClose = () => setSlidingPanelContent(null)

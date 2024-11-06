@@ -3,13 +3,14 @@
   grid-column: 1 / span 2;
   grid-row: 1;
   padding: 100px 40px;
+  pointer-events: none;
   position: relative;
-  overflow: visible;
+  overflow: auto;
   width: 100%;
 }
 
-.body {
-  overflow: scroll;
+.open {
+  pointer-events: all;
 }
 
 .close {

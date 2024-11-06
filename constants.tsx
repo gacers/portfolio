@@ -49,13 +49,11 @@ export const SIDEBAR_LIST_ANIMATIONS = {
   closed: {
     transition: TWEEN,
     opacity: 1,
-    pointerEvents: 'all',
     transform: 'translateX(0)',
   },
   open: {
     transition: TWEEN,
     opacity: 0,
-    pointerEvents: 'none',
     transform: 'translateX(100vw)',
   }
 }
