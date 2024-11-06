@@ -2,10 +2,12 @@
 
 import React, { ReactNode, createContext, useCallback, useContext, useReducer } from 'react'
 import { enablePageScrolling, preventPageScrolling } from '@/lib/scrolling-utils'
+import { SessionProvider } from "next-auth/react";
 
 type State = {
   sidebarOpen: boolean
   slidingPanelContent: ReactNode | null
+  loggedIn: boolean
 }
 
 type Action = { payload: any; type: string }
@@ -18,6 +20,7 @@ const GlobalDispatchContext = createContext<Dispatch | undefined>(undefined)
 const DEFAULT_GLOBAL_STATE = {
   sidebarOpen: false,
   slidingPanelContent: null,
+  loggedIn: false,
 }
 
 const reducer = (state: State, action: Action) => {
@@ -28,6 +31,9 @@ const reducer = (state: State, action: Action) => {
     /*                               Global Actions                               */
     /* -------------------------------------------------------------------------- */
     case 'TOGGLE_PANEL': {
+      return { ...state, ...payload }
+    }
+    case 'LOGIN': {
       return { ...state, ...payload }
     }
     default: {
@@ -94,7 +100,19 @@ const useGlobalDispatch = () => {
     []
   )
 
+  const login = useCallback(
+    () => {
+      dispatch({
+        payload: {
+          loggedIn: true
+        },
+        type: 'LOGIN',
+      })
+    }, []
+  )
+
   return {
+    login,
     closePanel,
     dispatch,
     setSlidingPanelContent,

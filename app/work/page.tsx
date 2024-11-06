@@ -1,15 +1,18 @@
 'use client'
 
-import React, { ReactNode } from 'react'
+import React, { ReactNode, useState } from 'react'
+import Form from 'next/form'
 import { Button, Container, Content, H, List, ListItem } from '@/components'
-import { useGlobalDispatch } from '@/context/GlobalContext'
+import { useGlobalDispatch, useGlobalState } from '@/context/GlobalContext'
 import Alteon from '@/containers/Alteon/Alteon'
 import Apple from '@/containers/Apple/Apple'
 import OpenAI from '@/containers/OpenAI/OpenAI'
 import s from './Work.module.css'
 
 function Work() {
-  const { setSlidingPanelContent } = useGlobalDispatch()
+  const { setSlidingPanelContent, login } = useGlobalDispatch()
+  const { loggedIn } = useGlobalState()
+  const [formValid, setFormValid] = useState(true)
 
   const launchSite = (site: ReactNode) => setSlidingPanelContent(site)
 
@@ -28,6 +31,19 @@ function Work() {
     },
   ]
 
+  const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+
+    const form = e.target as HTMLFormElement;
+    const passwordInput = form.elements.namedItem('password') as HTMLInputElement;
+
+    if (passwordInput?.value === process.env.NEXT_PUBLIC_AUTH_PASSWORD) {
+      login()
+    } else {
+      setFormValid(false)
+    }
+  }
+
   return (
     <main>
       <Container direction='column'>
@@ -36,16 +52,32 @@ function Work() {
         <Content
           className={s.content}
           right={
-            <List>
-              {buttonData.map(({ label, onClick }) => (
-                <ListItem key={label} className={s.item}>
-                  <Button className={s.button} onClick={onClick}>
-                    {label}
-                  </Button>
-                </ListItem>
-              ))}
-            </List>
-          }
+            loggedIn ? (
+              <List>
+                {buttonData.map(({ label, onClick }) => (
+                  <ListItem key={label} className={s.item}>
+                    <Button className={s.button} onClick={onClick}>
+                      {label}
+                    </Button>
+                  </ListItem>
+                ))}
+              </List>
+              ) : (
+                <div>
+                  {formValid ? (
+                    <p>Please Enter Password</p>
+                  ) : (
+                    <p>***Please Enter a Valid Password</p>
+                  )}
+
+                  <Form action="#" onSubmit={handleLogin} className={s.form}>
+                    <input type="password" id="password" placeholder='password' className={s.input} />
+
+                    <Button type="submit" className={s.submit}>Submit</Button>
+                  </Form>
+                </div>
+              )
+            }  
         />
       </Container>
     </main>

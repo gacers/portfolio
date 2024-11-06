@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, H } from '@/components'
 import { afacad } from '@/styles/fonts'
 import clsx from 'clsx'

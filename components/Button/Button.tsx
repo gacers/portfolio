@@ -9,9 +9,10 @@ interface ButtonProps {
   className?: string;
   onClick?: MouseEventHandler<HTMLButtonElement>;
   disabled?: boolean;
+  type?: 'button' | 'submit' | 'reset';
 }
 
-const Button: FC<ButtonProps> = ({ children, className = null, disabled = false, onClick = () => false }) => {
+const Button: FC<ButtonProps> = ({ children, className = null, disabled = false, onClick = () => false, type="button" }) => {
   return (
     <button
       className={clsx(s.root, {
@@ -20,6 +21,7 @@ const Button: FC<ButtonProps> = ({ children, className = null, disabled = false,
       })}
       onClick={onClick}
       disabled={disabled}
+      type={type}
     >
       {children}
     </button>
