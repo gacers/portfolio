@@ -30,10 +30,14 @@ const useKeyAction = (
       }
     }
 
-    document.addEventListener(keyAction, handleKeyAction)
+    if (keyAction) {
+      document.addEventListener(keyAction, handleKeyAction)
+    }
 
     return () => {
-      document.removeEventListener(keyAction, handleKeyAction)
+      if (keyAction) {
+        document.removeEventListener(keyAction, handleKeyAction)
+      }
     }
   }, [listener])
 }

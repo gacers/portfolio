@@ -1,13 +1,13 @@
-import { ReactEventHandler, RefObject, useEffect } from 'react'
+import { ReactEventHandler, RefObject, SyntheticEvent, useEffect } from 'react'
 
 const useOnClick = (ref: RefObject<HTMLElement>, handler: ReactEventHandler<{ e: MouseEvent }>): void => {
   useEffect(() => {
-    const listener = (event) => {
-      if (!ref.current || ref.current.contains(event.target)) {
+    const listener = (event: MouseEvent) => {
+      if (!ref.current || ref.current.contains(event.target as Node)) {
         return
       }
 
-      handler(event)
+      handler({ e: event } as unknown as SyntheticEvent<{ e: MouseEvent }, Event>)
     }
 
     document.addEventListener('mousedown', listener)
