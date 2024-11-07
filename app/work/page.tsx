@@ -6,6 +6,7 @@ import { Button, Container, Content, H, List, ListItem } from '@/components'
 import { useGlobalDispatch, useGlobalState } from '@/context/GlobalContext'
 import Alteon from '@/containers/Alteon/Alteon'
 import Apple from '@/containers/Apple/Apple'
+import AppleTvPr from '@/containers/AppleTvPr/AppleTvPr'
 import OpenAI from '@/containers/OpenAI/OpenAI'
 import s from './Work.module.css'
 
@@ -22,8 +23,12 @@ function Work() {
       onClick: () => launchSite(<OpenAI />)
     },
     { 
-      label: 'Apple Front End Development',
+      label: 'Apple Newsroom Front End Development',
       onClick: () => launchSite(<Apple />)
+    },
+    { 
+      label: 'Apple TV PR Front End Development',
+      onClick: () => launchSite(<AppleTvPr />)
     },
     {
       label: 'Alteon Front End Development',

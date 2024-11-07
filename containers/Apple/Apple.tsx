@@ -1,46 +1,68 @@
 import React from 'react'
 import Image from 'next/image';
 import img1 from '@/public/apple-1.jpg'
-import img2 from '@/public/apple-2.jpg'
+import img2 from '@/public/apple-6.jpg'
 import img3 from '@/public/apple-3.jpg'
+import img4 from '@/public/apple-2.jpg'
+import img5 from '@/public/apple-9.jpg'
+import img6 from '@/public/apple-13.jpg'
 import PageLayout from '@/containers/PageLayout/PageLayout';
 import Site from '@/containers/Site/Site';
+
+const imageData = [
+  {
+    image: img1,
+    alt: 'Apple',
+    width: 600
+  },
+  {
+    image: img2,
+    alt: 'Apple',
+    width: 600
+  },
+  {
+    image: img3,
+    alt: 'Apple',
+    width: 600
+  },
+  {
+    image: img4,
+    alt: 'Apple',
+    width: 600
+  },
+  {
+    image: img5,
+    alt: 'Apple',
+    width: 600
+  },
+  {
+    image: img6,
+    alt: 'Apple',
+    width: 600
+  }
+]
 
 const Apple = () => {
   return (
     <PageLayout
       left={
-        <>
+        imageData.map((image, index) => (
           <Image
-            src={img1}
-            alt="Apple"
-            width={600}
+            key={`apple-${index}`}
+            src={image.image}
+            alt={image.alt}
+            width={image.width}
           />
-
-          <Image
-            src={img2}
-            alt="Apple"
-            width={600}
-          />
-
-          <Image
-            src={img3}
-            alt="Apple"
-            width={600}
-          />
-        </>
+        ))
       }
       right={
         <Site
           title="Apple"
           role="Senior Front End Developer"
-          description="Apple Inc. is an American multinational technology company that specializes in consumer electronics, computer software, and online services."
+          description="The Newsroom project mainly consisted of building out new landing pages while getting the site ready fro a transition between handlebars to React. The project also included building out new features and maintaining the existing site."
           years='2021 - 2024'
-          skills="iOS, macOS, watchOS, tvOS, iPadOS, HomePod, Apple Watch, AirPods, HomePod, Apple TV, Apple Music, Apple Pay, iCloud, Apple Arcade, Apple Fitness+, Apple News+, Apple TV+, Apple Card, Apple One, Apple Books, Apple Podcasts, Apple Store, AppleCare, AppleCare+, Apple Developer, Apple ID, Apple Pay Cash"
-          url={[
-            'https://www.apple.com/newsroom',
-            'https://www.apple.com/tv-pr',
-          ]}
+          skills="HTML, CSS, SASS, JavaScript, Handlebars, React, Gulp, Sketch, Figma"
+          url="https://www.apple.com/newsroom"
         />
       }
     />
