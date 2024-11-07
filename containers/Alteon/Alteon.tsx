@@ -34,6 +34,7 @@ const Alteon = () => {
             src={image.image}
             alt={image.alt}
             width={image.width}
+            placeholder="blur"
           />
         ))
       }

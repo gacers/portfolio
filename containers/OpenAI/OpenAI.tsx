@@ -40,6 +40,7 @@ const OpenAI = () => {
             src={image.image}
             alt={image.alt}
             width={image.width}
+            placeholder="blur"
           />
         ))
       }
