@@ -3,16 +3,35 @@
 }
 
 .item {
-  padding: 10px 0;
+  padding: 20px 0;
+  position: relative;
 
-  &:not(:first-child) {
-    margin-top: 20px;
+  &::before {
+    background-color: var(--cream);
+    content: '';
+    height: 1px;
+    position: absolute;
+    opacity: 0.2;
+    top: 0;
+    width: 80%;
+  }
+
+  &:last-child {
+    &::after {
+      background-color: var(--cream);
+      content: '';
+      height: 1px;
+      position: absolute;
+      opacity: 0.2;
+      bottom: 0;
+      width: 80%;
+    }
   }
 }
 
 .button {
   display: flex;
-  font-size: 30px;
+  font-size: 20px;
   justify-content: center;
   opacity: 1;
   padding-right: 36px;
@@ -20,21 +39,9 @@
   text-align: left;
   transition: opacity 0.2s linear;
 
-  &::before {
-    background-color: var(--cream);
-    bottom: 0;
-    content: '';
-    display: block;
-    height: 1px;
-    position: absolute;
-    left: 0;
-    transition: width 0.2s linear;
-    width: 0;
-  }
-
   &::after {
     content: '\21D2';
-    line-height: 35px;
+    line-height: 20px;
     margin: auto;
     position: absolute;
     right: 0;
