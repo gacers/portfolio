@@ -50,7 +50,7 @@ const OpenAI = () => {
           role="Senior Front End Developer"
           description='Built on top of NextJS, OpenAi utilizes Tailwind to handle styling and animations. The Site also heavily relies on D3 the build out charts and graphs. Documentation is handled in Storybook.'
           years='2024 - Present'
-          skills='ANextJS, React, Tailwind, D3, Storybook, Javascript, Figma, Contentful'
+          skills='NextJS, React, Tailwind, D3, Storybook, Javascript, Figma, Contentful'
           url="https://www.openai.com/"
         />
       }
