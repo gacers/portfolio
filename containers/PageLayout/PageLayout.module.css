@@ -3,14 +3,13 @@
 }
 
 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   padding-right: 20px;
 
-  img {
+  div {
     height: auto;
     width: 100%;
-
-    &:not(:first-child) {
-      margin-top: 40px;
-    }
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image';
+import { FadeInImage } from '@/components';
 import img1 from '@/public/openai-3.jpg'
 import img2 from '@/public/openai-2.jpg'
 import img3 from '@/public/openai-1.jpg'
@@ -35,7 +35,7 @@ const OpenAI = () => {
     <PageLayout
       left={
         imageData.map((image, index) => (
-          <Image
+          <FadeInImage
             key={`openai-${index}`}
             src={image.image}
             alt={image.alt}

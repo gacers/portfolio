@@ -4,6 +4,7 @@ import React, { ReactNode, useState } from 'react'
 import Form from 'next/form'
 import { Button, Container, Content, H, List, ListItem } from '@/components'
 import { useGlobalDispatch, useGlobalState } from '@/context/GlobalContext'
+import { preloadImages } from '@/lib/preload-images'
 import Alteon from '@/containers/Alteon/Alteon'
 import Apple from '@/containers/Apple/Apple'
 import AppleTvPr from '@/containers/AppleTvPr/AppleTvPr'
@@ -44,6 +45,8 @@ function Work() {
 
     if (passwordInput?.value === process.env.NEXT_PUBLIC_AUTH_PASSWORD) {
       login()
+      // Preload all images after successful login
+      preloadImages()
     } else {
       setFormValid(false)
     }

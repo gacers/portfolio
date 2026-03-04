@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image';
+import { FadeInImage } from '@/components';
 import img1 from '@/public/appletvpr-1.jpg'
 import img2 from '@/public/appletvpr-2.jpg'
 import img3 from '@/public/appletvpr-3.jpg'
@@ -35,7 +35,7 @@ const Apple = () => {
     <PageLayout
       left={
         imageData.map((image, index) => (
-          <Image
+          <FadeInImage
           key={`appletvpr-${index}`}
             src={image.image}
             alt={image.alt}

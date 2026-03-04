@@ -1,0 +1,17 @@
+.image-container {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  width: 100%;
+}
+
+.image-visible {
+  opacity: 1;
+}

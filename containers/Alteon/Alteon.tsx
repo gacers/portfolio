@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image';
+import { FadeInImage } from '@/components';
 import img1 from '@/public/alteon-3.jpg'
 import img2 from '@/public/alteon-2.jpg'
 import img3 from '@/public/alteon-1.jpg'
@@ -29,7 +29,7 @@ const Alteon = () => {
     <PageLayout
       left={
         imageData.map((image, index) => (
-          <Image
+          <FadeInImage
             key={`alteon-${index}`}
             src={image.image}
             alt={image.alt}
