@@ -14,10 +14,11 @@ interface Props {
 
 const Panel: FC<Props> = ({ className = null, menuOpen, siteSection = null }) => {
   const { setSlidingPanelContent } = useGlobalDispatch()
-  const { slidingPanelContent } = useGlobalState()
+  const { panelClassName, slidingPanelContent } = useGlobalState()
 
   const classes = clsx(s.root, {
     [`${className}`]: className,
+    [s[panelClassName as string]]: panelClassName as string,
     [s.open]: slidingPanelContent,
   })
 

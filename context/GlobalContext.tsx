@@ -4,6 +4,7 @@ import React, { ReactNode, createContext, useCallback, useContext, useReducer } 
 import { enablePageScrolling, preventPageScrolling } from '@/lib/scrolling-utils'
 
 type State = {
+  panelClassName: string | null
   sidebarOpen: boolean
   slidingPanelContent: ReactNode | null
   loggedIn: boolean
@@ -23,6 +24,7 @@ const getInitialLoggedInState = (): boolean => {
 }
 
 const DEFAULT_GLOBAL_STATE = {
+  panelClassName: null,
   sidebarOpen: false,
   slidingPanelContent: null,
   loggedIn: getInitialLoggedInState(),
@@ -89,6 +91,7 @@ const useGlobalDispatch = () => {
 
     dispatch({
       payload: {
+        panelClassName: null,
         slidingPanelContent: null
       },
       type: 'TOGGLE_PANEL',
@@ -96,11 +99,12 @@ const useGlobalDispatch = () => {
   }
 
   const setSlidingPanelContent = useCallback(
-    (content: ReactNode) => {
+    (content: ReactNode, className?: string | null) => {
       preventPageScrolling()
 
       dispatch({
         payload: {
+          panelClassName: className || null,
           slidingPanelContent: content,
         },
         type: 'TOGGLE_PANEL',

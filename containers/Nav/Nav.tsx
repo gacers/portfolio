@@ -28,7 +28,10 @@ const Nav = () => {
   const { slidingPanelContent } = useGlobalState()
   const ref = useClickOutside(slidingPanelContent ? () => setSlidingPanelContent(null) : () => {});
 
-  const handlePanelSet = (content: ReactNode) => setSlidingPanelContent(content)
+  const handlePanelSet = (content: ReactNode, label: string) => {
+    const className = label.toLowerCase()
+    setSlidingPanelContent(content, className)
+  }
 
   useKeyAction(slidingPanelContent ? () => setSlidingPanelContent(null) : () => {}, { key: 'Escape', listener: slidingPanelContent })
 
@@ -58,7 +61,7 @@ const Nav = () => {
                 const Component = component
                 return (
                   <ListItem key={label} className={clsx(afacad.className, s.resume)}>
-                    <Button onClick={() => handlePanelSet(<Component />)} disabled={disabled}>{label}</Button>
+                    <Button onClick={() => handlePanelSet(<Component />, label)} disabled={disabled}>{label}</Button>
                   </ListItem>
                 )
               } else {
