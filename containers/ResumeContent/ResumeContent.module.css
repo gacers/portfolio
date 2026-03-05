@@ -1,0 +1,81 @@
+.root {
+  position: sticky;
+  top: 0;
+}
+
+.section {
+  align-items: baseline;
+  border-top: 1px solid var(--green-100);
+  display: flex;
+  padding: 20px 0;
+}
+
+.container {
+  width: 800px;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text {
+  opacity: 0.7;
+}
+
+.title {
+  margin: 0;
+}
+
+.label {
+  margin-right: 5px;
+
+  + .content {
+    margin-top: 10px;
+  }
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item:not(:last-child)::after {
+  content: '\002c';
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.spacing-small {
+  height: 10px;
+}
+
+.spacing-medium {
+  height: 20px;
+}
+
+.education-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}

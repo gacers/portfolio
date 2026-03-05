@@ -1,0 +1,47 @@
+---
+alwaysApply: true
+description: Code formatting rules for JSX/TSX files
+globs: *.tsx,*.jsx
+---
+
+# Formatting Rules
+
+When writing JSX/TSX code, follow these formatting rules:
+
+1. **Children on new lines**: All child elements/components should be on their own line, not inline with the opening tag
+2. **Blank lines between siblings**: Add a blank line between sibling elements/components that share the same parent
+
+## Examples
+
+### Correct Formatting:
+```tsx
+<div className={s.container}>
+  <span className={s.label}>LABEL:</span>
+
+  <div className={s.content}>
+    <Text>First child</Text>
+
+    <Text>Second child</Text>
+
+    <ul>
+      <li>Item 1</li>
+
+      <li>Item 2</li>
+    </ul>
+  </div>
+</div>
+```
+
+### Incorrect Formatting:
+```tsx
+// ❌ Children inline
+<div className={s.container}><span>Label</span><div>Content</div></div>
+
+// ❌ No blank lines between siblings
+<div>
+  <span>First</span>
+  <span>Second</span>
+</div>
+```
+
+Always format code following these rules when editing or creating JSX/TSX files.

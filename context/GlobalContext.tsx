@@ -16,10 +16,16 @@ type GlobalProviderProps = { children: ReactNode; initialState: State }
 const GlobalStateContext = createContext<State | undefined>(undefined)
 const GlobalDispatchContext = createContext<Dispatch | undefined>(undefined)
 
+const getInitialLoggedInState = (): boolean => {
+  if (typeof window === 'undefined') return false
+  const stored = localStorage.getItem('loggedIn')
+  return stored === 'true'
+}
+
 const DEFAULT_GLOBAL_STATE = {
   sidebarOpen: false,
   slidingPanelContent: null,
-  loggedIn: false,
+  loggedIn: getInitialLoggedInState(),
 }
 
 const reducer = (state: State, action: Action) => {
@@ -41,8 +47,12 @@ const reducer = (state: State, action: Action) => {
   }
 }
 
-const GlobalProvider = ({ children, initialState = DEFAULT_GLOBAL_STATE }: GlobalProviderProps): any => {
-  const [state, dispatch] = useReducer(reducer, initialState)
+const GlobalProvider = ({ children, initialState }: GlobalProviderProps): any => {
+  const mergedInitialState = {
+    ...DEFAULT_GLOBAL_STATE,
+    ...initialState,
+  }
+  const [state, dispatch] = useReducer(reducer, mergedInitialState)
 
   return (
     <GlobalStateContext.Provider value={state}>
@@ -101,6 +111,9 @@ const useGlobalDispatch = () => {
 
   const login = useCallback(
     () => {
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('loggedIn', 'true')
+      }
       dispatch({
         payload: {
           loggedIn: true

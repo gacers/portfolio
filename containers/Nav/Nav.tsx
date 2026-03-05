@@ -4,24 +4,21 @@ import React, { ReactNode } from 'react'
 import { motion } from 'framer-motion'
 import clsx from 'clsx'
 import Link from 'next/link'
-import dynamic from 'next/dynamic';
 import { usePathname } from 'next/navigation'
-import { useRouter } from 'next/router'
 import { NAV_ROOT_ANIMATIONS, SIDEBAR_BODY_ANIMATIONS, SIDEBAR_LIST_ANIMATIONS } from '@/constants'
 import { useGlobalDispatch, useGlobalState } from 'context/GlobalContext'
 import useClickOutside from '@/hooks/useClickOutside'
 import useKeyAction from '@/hooks/useKeyAction'
 import { Button, List, ListItem } from '@/components'
-// import ResumeContent from '@/containers/ResumeContent/ResumeContent'
 import Panel from '@/containers/Panel/Panel'
+import ResumeContent from '@/containers/ResumeContent/ResumeContent'
 import { afacad } from '@/styles/fonts'
 import s from './Nav.module.css'
 
 const navItems = [
   { href: '/about', label: 'About', disabled: true },
-  { href: '/skills', label: 'Skills', disabled: true },
   { href: '/work', label: 'Work' },
-  { label: 'Resume', component: '../container/ResumeContent/ResumeContent', disabled: true },
+  { component: ResumeContent, label: 'Resume' },
   { href: '/contact', label: 'Contact', disabled: true },
 ]
 
@@ -58,11 +55,10 @@ const Nav = () => {
           <List >
             {navItems.map(({ component, disabled, href, label }) => {
               if (component) {
-                // const DynamicComponent = dynamic(() => import(component));
-
+                const Component = component
                 return (
                   <ListItem key={label} className={clsx(afacad.className, s.resume)}>
-                    <Button onClick={() => handlePanelSet(component)} disabled={disabled}>Resume</Button>
+                    <Button onClick={() => handlePanelSet(<Component />)} disabled={disabled}>{label}</Button>
                   </ListItem>
                 )
               } else {
