@@ -11,7 +11,7 @@ type State = {
 
 type Action = { payload: any; type: string }
 type Dispatch = (action: Action) => void
-type GlobalProviderProps = { children: ReactNode; initialState: State }
+type GlobalProviderProps = { children: ReactNode; initialState?: Partial<State> }
 
 const GlobalStateContext = createContext<State | undefined>(undefined)
 const GlobalDispatchContext = createContext<Dispatch | undefined>(undefined)
@@ -47,7 +47,7 @@ const reducer = (state: State, action: Action) => {
   }
 }
 
-const GlobalProvider = ({ children, initialState }: GlobalProviderProps): any => {
+const GlobalProvider = ({ children, initialState = {} }: GlobalProviderProps): any => {
   const mergedInitialState = {
     ...DEFAULT_GLOBAL_STATE,
     ...initialState,
